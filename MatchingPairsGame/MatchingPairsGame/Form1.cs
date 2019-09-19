@@ -25,11 +25,28 @@ namespace MatchingPairsGame
             "!", "!", "N", "N", ",", ",", "k", "k",
             "b", "b", "v", "v", "w", "w", "z", "z"
         };
+
         public FormMatchingPairsGame()
         {
             InitializeComponent();
+            AssignIconsToSquares();
         }
 
+        private void AssignIconsToSquares()
+        {
+            foreach (Control control in tableLayoutPanel1.Controls)
+            {
+                Label iconLabel = control as Label;
+                if (iconLabel != null)
+                {
+                    int randomNumber = random.Next(icons.Count);
+                    iconLabel.Text = icons[randomNumber];
+
+                    // iconLabel.ForeColor = iconLabel.BackColor;
+                    icons.RemoveAt(randomNumber);
+                }
+            }
+        }
         //private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         //{
 
