@@ -1,4 +1,11 @@
-﻿using System;
+﻿/* Vasilije Mehandzic
+ * Reno Technology Academy
+ * CIS109: Coding in C# for Imbedded Systems
+ * Udemy, 17 Beginner C# Walktrough Projects Step By Step
+ * Project 1: Create a Matching Pairs Icon Image Game
+ * */
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,14 +19,20 @@ namespace MatchingPairsGame
 {
     public partial class FormMatchingPairsGame : Form
     {
+        Random random = new Random();
+        List<string> icons = new List<string>()
+        {
+            "!", "!", "N", "N", ",", ",", "k", "k",
+            "b", "b", "v", "v", "w", "w", "z", "z"
+        };
         public FormMatchingPairsGame()
         {
             InitializeComponent();
         }
 
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
+        //private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        //{
 
-        }
+        //}
     }
 }
