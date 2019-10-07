@@ -51,10 +51,10 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(-3, 171);
+            this.textBox1.Location = new System.Drawing.Point(-3, 211);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(93, 34);
+            this.textBox1.Size = new System.Drawing.Size(681, 50);
             this.textBox1.TabIndex = 1;
             // 
             // buttonBrowse
@@ -69,6 +69,7 @@
             this.buttonBrowse.TabIndex = 2;
             this.buttonBrowse.Text = "Browse";
             this.buttonBrowse.UseVisualStyleBackColor = false;
+            this.buttonBrowse.Click += new System.EventHandler(this.buttonBrowse_Click);
             // 
             // buttonPlay
             // 
@@ -82,6 +83,7 @@
             this.buttonPlay.TabIndex = 3;
             this.buttonPlay.Text = "Play";
             this.buttonPlay.UseVisualStyleBackColor = false;
+            this.buttonPlay.Click += new System.EventHandler(this.buttonPlay_Click);
             // 
             // buttonPause
             // 
@@ -95,6 +97,7 @@
             this.buttonPause.TabIndex = 4;
             this.buttonPause.Text = "Pause";
             this.buttonPause.UseVisualStyleBackColor = false;
+            this.buttonPause.Click += new System.EventHandler(this.buttonPause_Click);
             // 
             // buttonStop
             // 
@@ -108,6 +111,7 @@
             this.buttonStop.TabIndex = 5;
             this.buttonStop.Text = "Stop";
             this.buttonStop.UseVisualStyleBackColor = false;
+            this.buttonStop.Click += new System.EventHandler(this.buttonStop_Click);
             // 
             // buttonExit
             // 
@@ -121,6 +125,7 @@
             this.buttonExit.TabIndex = 6;
             this.buttonExit.Text = "Exit";
             this.buttonExit.UseVisualStyleBackColor = false;
+            this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
             // 
             // openFileDialog1
             // 
