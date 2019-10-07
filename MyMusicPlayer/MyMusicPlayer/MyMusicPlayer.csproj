@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{78DE9915-DB4C-48CC-BD58-F91283545215}</ProjectGuid>
+    <ProjectGuid>{2C964FDD-B40F-4B5B-A42F-A7A287DD0093}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>MyMusicPlayer</RootNamespace>
     <AssemblyName>MyMusicPlayer</AssemblyName>
