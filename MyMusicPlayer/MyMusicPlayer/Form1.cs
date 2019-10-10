@@ -17,33 +17,46 @@ namespace MyMusicPlayer
             InitializeComponent();
         }
 
-        private void buttonBrowse_Click(object sender, EventArgs e)
+        private void ButtonBrowse_Click(object sender, EventArgs e)
         {
-            if (openFileDialog1.ShowDialog()==DialogResult.OK)
-            {
-                textBox1.Text = openFileDialog1.FileName;
-            }
-            Player.URL = textBox1.Text;
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+               foreach (String file in openFileDialog1.FileNames)
+                     listBox1.Items.Add(file);
         }
 
-        private void buttonPlay_Click(object sender, EventArgs e)
+        private void ButtonPlay_Click(object sender, EventArgs e)
         {
             Player.Ctlcontrols.play();
+            buttonPause.Text = "Pause";
         }
 
-        private void buttonPause_Click(object sender, EventArgs e)
+        private void ButtonPause_Click(object sender, EventArgs e)
         {
-            Player.Ctlcontrols.pause();
+            if (Player.playState == WMPLib.WMPPlayState.wmppsPlaying)
+            {
+                Player.Ctlcontrols.pause();
+                buttonPause.Text = "Resume";
+            }
+            else if (Player.playState == WMPLib.WMPPlayState.wmppsPaused)
+            { 
+                Player.Ctlcontrols.play();
+                buttonPause.Text = "Pause";
+            }
         }
 
-        private void buttonStop_Click(object sender, EventArgs e)
+        private void ButtonStop_Click(object sender, EventArgs e)
         {
             Player.Ctlcontrols.stop();
         }
 
-        private void buttonExit_Click(object sender, EventArgs e)
+        private void ButtonExit_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void listBox1_Click(object sender, EventArgs e)
+        {
+            Player.URL = listBox1.GetItemText(listBox1.SelectedItem);
         }
     }
 }
