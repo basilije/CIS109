@@ -1,0 +1,3 @@
+The original player is changed to work in sizable window mode. The textBox is converted listBox, so multiple media (the dialog filter is applied) files could be added. All graphic is organized to better fill the space on the screen. Now the control buttons change the style when clicked.
+
+Practicaly, lot of thing that WinAmp (or some other long-ter developed player) has is missing: Repeat button, Shuffle Button, posibility to edit the play list, posibility to read/edit the ID3 (or some other) tag from file... There is a way (right click, then properties on the player in design mode) to switch the player to invisible (or similar) and then make all the controls and logic again.
