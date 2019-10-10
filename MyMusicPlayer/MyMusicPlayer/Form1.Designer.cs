@@ -58,7 +58,7 @@
             this.buttonBrowse.BackColor = System.Drawing.Color.Aquamarine;
             this.buttonBrowse.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonBrowse.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonBrowse.ForeColor = System.Drawing.Color.White;
+            this.buttonBrowse.ForeColor = System.Drawing.Color.DarkBlue;
             this.buttonBrowse.Location = new System.Drawing.Point(7, 287);
             this.buttonBrowse.Name = "buttonBrowse";
             this.buttonBrowse.Size = new System.Drawing.Size(97, 34);
@@ -73,8 +73,8 @@
             this.buttonPlay.BackColor = System.Drawing.Color.Turquoise;
             this.buttonPlay.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonPlay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPlay.ForeColor = System.Drawing.Color.White;
-            this.buttonPlay.Location = new System.Drawing.Point(126, 287);
+            this.buttonPlay.ForeColor = System.Drawing.Color.DarkBlue;
+            this.buttonPlay.Location = new System.Drawing.Point(132, 287);
             this.buttonPlay.Name = "buttonPlay";
             this.buttonPlay.Size = new System.Drawing.Size(97, 34);
             this.buttonPlay.TabIndex = 3;
@@ -88,8 +88,8 @@
             this.buttonPause.BackColor = System.Drawing.Color.LightSeaGreen;
             this.buttonPause.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonPause.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPause.ForeColor = System.Drawing.Color.White;
-            this.buttonPause.Location = new System.Drawing.Point(247, 287);
+            this.buttonPause.ForeColor = System.Drawing.Color.DarkBlue;
+            this.buttonPause.Location = new System.Drawing.Point(255, 287);
             this.buttonPause.Name = "buttonPause";
             this.buttonPause.Size = new System.Drawing.Size(121, 34);
             this.buttonPause.TabIndex = 4;
@@ -103,7 +103,7 @@
             this.buttonStop.BackColor = System.Drawing.Color.Teal;
             this.buttonStop.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonStop.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonStop.ForeColor = System.Drawing.Color.White;
+            this.buttonStop.ForeColor = System.Drawing.Color.DarkBlue;
             this.buttonStop.Location = new System.Drawing.Point(396, 287);
             this.buttonStop.Name = "buttonStop";
             this.buttonStop.Size = new System.Drawing.Size(97, 34);
@@ -118,7 +118,7 @@
             this.buttonExit.BackColor = System.Drawing.Color.CornflowerBlue;
             this.buttonExit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonExit.ForeColor = System.Drawing.Color.White;
+            this.buttonExit.ForeColor = System.Drawing.Color.DarkBlue;
             this.buttonExit.Location = new System.Drawing.Point(521, 287);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(97, 34);
@@ -129,6 +129,7 @@
             // 
             // openFileDialog1
             // 
+            this.openFileDialog1.Filter = resources.GetString("openFileDialog1.Filter");
             this.openFileDialog1.Multiselect = true;
             this.openFileDialog1.Title = "Please select music files to play";
             // 
