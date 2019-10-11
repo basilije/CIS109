@@ -48,7 +48,7 @@ namespace MyScreenSaver
 
             foreach (string image in images)
             {
-                BGImages.Add(new Bitmap(image));
+                BGImages.Add(new Bitmap(image)); 
             }
 
             for (int i = 0; i < 50; ++i)
