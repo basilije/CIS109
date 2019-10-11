@@ -43,6 +43,7 @@
             this.ShowInTaskbar = false;
             this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmScSaver_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmScSaver_KeyDown);
             this.ResumeLayout(false);
 
