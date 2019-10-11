@@ -63,5 +63,24 @@ namespace MyScreenSaver
                 BritPics.Add(mp);
             }
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            Refresh();
+        }
+
+        private void frmScSaver_Paint(object sender, PaintEventArgs e)
+        {
+            foreach (BritPic bp in BritPics)
+            {
+                e.Graphics.DrawImage(BGImages[bp.PicNum], bp.X, bp.Y);
+                bp.X -= 2;
+
+                if (bp.X < -250)
+                {
+                    bp.X = Width + rand.Next(20, 100);
+                }
+            }
+        }
     }
 }

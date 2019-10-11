@@ -33,6 +33,12 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 40;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // frmScSaver
             // 
             resources.ApplyResources(this, "$this");
@@ -44,6 +50,7 @@
             this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmScSaver_Load);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.frmScSaver_Paint);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmScSaver_KeyDown);
             this.ResumeLayout(false);
 
