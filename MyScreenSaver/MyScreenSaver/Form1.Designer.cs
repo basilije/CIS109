@@ -36,14 +36,14 @@
             // timer1
             // 
             this.timer1.Enabled = true;
-            this.timer1.Interval = 40;
+            this.timer1.Interval = 80;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // frmScSaver
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Purple;
+            this.BackColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmScSaver";
             this.ShowInTaskbar = false;

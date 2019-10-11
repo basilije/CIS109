@@ -51,14 +51,12 @@ namespace MyScreenSaver
                 BGImages.Add(new Bitmap(image)); 
             }
 
-            for (int i = 0; i < 50; ++i)
+            for (int i = 0; i < 100; ++i)
             {
                 BritPic mp = new BritPic();
                 mp.PicNum = i % BGImages.Count;
                 mp.X = rand.Next(0, Width);
                 mp.Y = rand.Next(0, Height);
-
-                // mp.Speed = rand.Next(100,300) / 100.0f;
 
                 BritPics.Add(mp);
             }
@@ -74,7 +72,7 @@ namespace MyScreenSaver
             foreach (BritPic bp in BritPics)
             {
                 e.Graphics.DrawImage(BGImages[bp.PicNum], bp.X, bp.Y);
-                bp.X -= 2;
+                bp.X -= 5;
 
                 if (bp.X < -250)
                 {
