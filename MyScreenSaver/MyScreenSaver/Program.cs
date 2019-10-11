@@ -16,7 +16,7 @@ namespace MyScreenSaver
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmScSaver());
+            Application.Run(new FrmScSaver());
         }
     }
 }

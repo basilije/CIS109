@@ -1,6 +1,6 @@
 ﻿namespace MyScreenSaver
 {
-    partial class frmScSaver
+    partial class FrmScSaver
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmScSaver));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmScSaver));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
@@ -37,9 +37,9 @@
             // 
             this.timer1.Enabled = true;
             this.timer1.Interval = 80;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
-            // frmScSaver
+            // FrmScSaver
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -49,9 +49,9 @@
             this.ShowInTaskbar = false;
             this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.frmScSaver_Load);
-            this.Paint += new System.Windows.Forms.PaintEventHandler(this.frmScSaver_Paint);
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmScSaver_KeyDown);
+            this.Load += new System.EventHandler(this.FrmScSaver_Load);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.FrmScSaver_Paint);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmScSaver_KeyDown);
             this.ResumeLayout(false);
 
         }
