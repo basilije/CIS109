@@ -122,309 +122,309 @@
             // 
             // label34
             // 
-            this.label34.BackColor = System.Drawing.Color.Indigo;
-            this.label34.Location = new System.Drawing.Point(267, 11);
+            this.label34.BackColor = System.Drawing.Color.Olive;
+            this.label34.Location = new System.Drawing.Point(249, 11);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(121, 25);
+            this.label34.Size = new System.Drawing.Size(137, 25);
             this.label34.TabIndex = 32;
-            this.label34.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label34.MouseEnter += new System.EventHandler(this.FourthColorWall_MouseEnter);
             // 
             // label32
             // 
-            this.label32.BackColor = System.Drawing.Color.Indigo;
+            this.label32.BackColor = System.Drawing.Color.Crimson;
             this.label32.Location = new System.Drawing.Point(154, 11);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(25, 80);
             this.label32.TabIndex = 31;
-            this.label32.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label32.MouseEnter += new System.EventHandler(this.SeventhColorWall_MouseEnter);
             // 
             // label31
             // 
-            this.label31.BackColor = System.Drawing.Color.Indigo;
+            this.label31.BackColor = System.Drawing.Color.DarkGreen;
             this.label31.Location = new System.Drawing.Point(436, 11);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(25, 60);
             this.label31.TabIndex = 30;
-            this.label31.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label31.MouseEnter += new System.EventHandler(this.ThirdColorWall_MouseEnter);
             // 
             // label30
             // 
-            this.label30.BackColor = System.Drawing.Color.Indigo;
+            this.label30.BackColor = System.Drawing.Color.DimGray;
             this.label30.Location = new System.Drawing.Point(454, 418);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(25, 100);
             this.label30.TabIndex = 29;
-            this.label30.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label30.MouseEnter += new System.EventHandler(this.NinethColorWall_MouseEnter);
             // 
             // label29
             // 
-            this.label29.BackColor = System.Drawing.Color.Indigo;
+            this.label29.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.label29.Location = new System.Drawing.Point(234, 233);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(121, 25);
             this.label29.TabIndex = 28;
-            this.label29.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label29.MouseEnter += new System.EventHandler(this.EighthColorWall_MouseEnter);
             // 
             // label28
             // 
-            this.label28.BackColor = System.Drawing.Color.Indigo;
-            this.label28.Location = new System.Drawing.Point(201, 458);
+            this.label28.BackColor = System.Drawing.Color.SaddleBrown;
+            this.label28.Location = new System.Drawing.Point(194, 458);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(40, 25);
+            this.label28.Size = new System.Drawing.Size(31, 25);
             this.label28.TabIndex = 27;
-            this.label28.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label28.MouseEnter += new System.EventHandler(this.TenthColorWall_MouseEnter);
             // 
             // label27
             // 
-            this.label27.BackColor = System.Drawing.Color.Indigo;
+            this.label27.BackColor = System.Drawing.Color.Peru;
             this.label27.Location = new System.Drawing.Point(225, 493);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(121, 25);
             this.label27.TabIndex = 26;
-            this.label27.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label27.MouseEnter += new System.EventHandler(this.FifthColorWall_MouseEnter);
             // 
             // label26
             // 
-            this.label26.BackColor = System.Drawing.Color.Indigo;
-            this.label26.Location = new System.Drawing.Point(247, 418);
+            this.label26.BackColor = System.Drawing.Color.Orchid;
+            this.label26.Location = new System.Drawing.Point(249, 418);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(121, 25);
+            this.label26.Size = new System.Drawing.Size(119, 25);
             this.label26.TabIndex = 25;
-            this.label26.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label26.MouseEnter += new System.EventHandler(this.SecondColorWall_MouseEnter);
             // 
             // label25
             // 
-            this.label25.BackColor = System.Drawing.Color.Indigo;
+            this.label25.BackColor = System.Drawing.Color.Crimson;
             this.label25.Location = new System.Drawing.Point(225, 364);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(25, 129);
             this.label25.TabIndex = 24;
-            this.label25.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label25.MouseEnter += new System.EventHandler(this.SeventhColorWall_MouseEnter);
             // 
             // label24
             // 
-            this.label24.BackColor = System.Drawing.Color.Indigo;
+            this.label24.BackColor = System.Drawing.Color.SaddleBrown;
             this.label24.Location = new System.Drawing.Point(58, 418);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(25, 100);
             this.label24.TabIndex = 23;
-            this.label24.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label24.MouseEnter += new System.EventHandler(this.TenthColorWall_MouseEnter);
             // 
             // label23
             // 
-            this.label23.BackColor = System.Drawing.Color.Indigo;
+            this.label23.BackColor = System.Drawing.Color.SaddleBrown;
             this.label23.Location = new System.Drawing.Point(141, 431);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(25, 52);
             this.label23.TabIndex = 22;
-            this.label23.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label23.MouseEnter += new System.EventHandler(this.TenthColorWall_MouseEnter);
             // 
             // label22
             // 
-            this.label22.BackColor = System.Drawing.Color.Indigo;
+            this.label22.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.label22.Location = new System.Drawing.Point(104, 406);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(100, 25);
             this.label22.TabIndex = 21;
-            this.label22.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label22.MouseEnter += new System.EventHandler(this.EighthColorWall_MouseEnter);
             // 
             // label21
             // 
-            this.label21.BackColor = System.Drawing.Color.Indigo;
+            this.label21.BackColor = System.Drawing.Color.SaddleBrown;
             this.label21.Location = new System.Drawing.Point(405, 133);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(25, 50);
             this.label21.TabIndex = 20;
-            this.label21.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label21.MouseEnter += new System.EventHandler(this.TenthColorWall_MouseEnter);
             // 
             // label20
             // 
-            this.label20.BackColor = System.Drawing.Color.Indigo;
+            this.label20.BackColor = System.Drawing.Color.Navy;
             this.label20.Location = new System.Drawing.Point(511, 68);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(25, 415);
             this.label20.TabIndex = 19;
-            this.label20.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label20.MouseEnter += new System.EventHandler(this.FirstColorWall_MouseEnter);
             // 
             // label19
             // 
-            this.label19.BackColor = System.Drawing.Color.Indigo;
+            this.label19.BackColor = System.Drawing.Color.DarkGreen;
             this.label19.Location = new System.Drawing.Point(389, 278);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(25, 222);
             this.label19.TabIndex = 18;
-            this.label19.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label19.MouseEnter += new System.EventHandler(this.ThirdColorWall_MouseEnter);
             // 
             // label18
             // 
-            this.label18.BackColor = System.Drawing.Color.Indigo;
+            this.label18.BackColor = System.Drawing.Color.Crimson;
             this.label18.Location = new System.Drawing.Point(343, 331);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(25, 87);
             this.label18.TabIndex = 17;
-            this.label18.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label18.MouseEnter += new System.EventHandler(this.SeventhColorWall_MouseEnter);
             // 
             // label17
             // 
-            this.label17.BackColor = System.Drawing.Color.Indigo;
+            this.label17.BackColor = System.Drawing.Color.DarkGreen;
             this.label17.Location = new System.Drawing.Point(81, 108);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(25, 155);
             this.label17.TabIndex = 16;
-            this.label17.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label17.MouseEnter += new System.EventHandler(this.ThirdColorWall_MouseEnter);
             // 
             // label16
             // 
-            this.label16.BackColor = System.Drawing.Color.Indigo;
+            this.label16.BackColor = System.Drawing.Color.DimGray;
             this.label16.Location = new System.Drawing.Point(58, 288);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(25, 63);
             this.label16.TabIndex = 15;
-            this.label16.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label16.MouseEnter += new System.EventHandler(this.NinethColorWall_MouseEnter);
             // 
             // label15
             // 
-            this.label15.BackColor = System.Drawing.Color.Indigo;
+            this.label15.BackColor = System.Drawing.Color.DimGray;
             this.label15.Location = new System.Drawing.Point(346, 60);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(25, 123);
             this.label15.TabIndex = 14;
-            this.label15.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label15.MouseEnter += new System.EventHandler(this.NinethColorWall_MouseEnter);
             // 
             // label14
             // 
-            this.label14.BackColor = System.Drawing.Color.Indigo;
-            this.label14.Location = new System.Drawing.Point(276, 133);
+            this.label14.BackColor = System.Drawing.Color.Navy;
+            this.label14.Location = new System.Drawing.Point(276, 108);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(25, 100);
+            this.label14.Size = new System.Drawing.Size(25, 125);
             this.label14.TabIndex = 13;
-            this.label14.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label14.MouseEnter += new System.EventHandler(this.FirstColorWall_MouseEnter);
             // 
             // label13
             // 
-            this.label13.BackColor = System.Drawing.Color.Indigo;
+            this.label13.BackColor = System.Drawing.Color.SaddleBrown;
             this.label13.Location = new System.Drawing.Point(154, 263);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(25, 50);
             this.label13.TabIndex = 12;
-            this.label13.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label13.MouseEnter += new System.EventHandler(this.TenthColorWall_MouseEnter);
             // 
             // label12
             // 
-            this.label12.BackColor = System.Drawing.Color.Indigo;
+            this.label12.BackColor = System.Drawing.Color.Peru;
             this.label12.Location = new System.Drawing.Point(58, 351);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(100, 25);
             this.label12.TabIndex = 11;
-            this.label12.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label12.MouseEnter += new System.EventHandler(this.FifthColorWall_MouseEnter);
             // 
             // label11
             // 
-            this.label11.BackColor = System.Drawing.Color.Indigo;
+            this.label11.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.label11.Location = new System.Drawing.Point(436, 27);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(100, 25);
             this.label11.TabIndex = 10;
-            this.label11.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label11.MouseEnter += new System.EventHandler(this.EighthColorWall_MouseEnter);
             // 
             // label10
             // 
-            this.label10.BackColor = System.Drawing.Color.Indigo;
+            this.label10.BackColor = System.Drawing.Color.Peru;
             this.label10.Location = new System.Drawing.Point(405, 108);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(106, 25);
             this.label10.TabIndex = 9;
-            this.label10.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label10.MouseEnter += new System.EventHandler(this.FifthColorWall_MouseEnter);
             // 
             // label9
             // 
-            this.label9.BackColor = System.Drawing.Color.Indigo;
+            this.label9.BackColor = System.Drawing.Color.Olive;
             this.label9.Location = new System.Drawing.Point(58, 263);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(100, 25);
             this.label9.TabIndex = 8;
-            this.label9.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label9.MouseEnter += new System.EventHandler(this.FourthColorWall_MouseEnter);
             // 
             // label8
             // 
-            this.label8.BackColor = System.Drawing.Color.Indigo;
+            this.label8.BackColor = System.Drawing.Color.Orchid;
             this.label8.Location = new System.Drawing.Point(246, 288);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(100, 25);
             this.label8.TabIndex = 7;
-            this.label8.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label8.MouseEnter += new System.EventHandler(this.SecondColorWall_MouseEnter);
             // 
             // label7
             // 
-            this.label7.BackColor = System.Drawing.Color.Indigo;
+            this.label7.BackColor = System.Drawing.Color.Orchid;
             this.label7.Location = new System.Drawing.Point(81, 108);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(287, 25);
             this.label7.TabIndex = 6;
-            this.label7.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label7.MouseEnter += new System.EventHandler(this.SecondColorWall_MouseEnter);
             // 
             // label6
             // 
-            this.label6.BackColor = System.Drawing.Color.Indigo;
+            this.label6.BackColor = System.Drawing.Color.SaddleBrown;
             this.label6.Location = new System.Drawing.Point(346, 183);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(117, 25);
             this.label6.TabIndex = 5;
-            this.label6.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label6.MouseEnter += new System.EventHandler(this.TenthColorWall_MouseEnter);
             // 
             // label5
             // 
-            this.label5.BackColor = System.Drawing.Color.Indigo;
+            this.label5.BackColor = System.Drawing.Color.SaddleBrown;
             this.label5.Location = new System.Drawing.Point(444, 252);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(67, 25);
             this.label5.TabIndex = 4;
-            this.label5.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label5.MouseEnter += new System.EventHandler(this.TenthColorWall_MouseEnter);
             // 
             // label4
             // 
-            this.label4.BackColor = System.Drawing.Color.Indigo;
+            this.label4.BackColor = System.Drawing.Color.SaddleBrown;
             this.label4.Location = new System.Drawing.Point(17, 133);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(47, 25);
             this.label4.TabIndex = 3;
-            this.label4.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label4.MouseEnter += new System.EventHandler(this.TenthColorWall_MouseEnter);
             // 
             // label3
             // 
-            this.label3.BackColor = System.Drawing.Color.Indigo;
+            this.label3.BackColor = System.Drawing.Color.Olive;
             this.label3.Location = new System.Drawing.Point(411, 351);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(100, 25);
             this.label3.TabIndex = 2;
-            this.label3.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label3.MouseEnter += new System.EventHandler(this.FourthColorWall_MouseEnter);
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.Color.Indigo;
+            this.label2.BackColor = System.Drawing.Color.Navy;
             this.label2.Location = new System.Drawing.Point(39, 11);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(25, 122);
             this.label2.TabIndex = 1;
-            this.label2.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label2.MouseEnter += new System.EventHandler(this.FirstColorWall_MouseEnter);
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.Indigo;
+            this.label1.BackColor = System.Drawing.Color.SaddleBrown;
             this.label1.Location = new System.Drawing.Point(17, 46);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(100, 25);
             this.label1.TabIndex = 0;
-            this.label1.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label1.MouseEnter += new System.EventHandler(this.TenthColorWall_MouseEnter);
             // 
             // label33
             // 
-            this.label33.BackColor = System.Drawing.Color.Indigo;
+            this.label33.BackColor = System.Drawing.Color.SaddleBrown;
             this.label33.Location = new System.Drawing.Point(276, 46);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(25, 97);
+            this.label33.Size = new System.Drawing.Size(25, 122);
             this.label33.TabIndex = 32;
-            this.label33.MouseEnter += new System.EventHandler(this.Wall_MouseEnter);
+            this.label33.MouseEnter += new System.EventHandler(this.TenthColorWall_MouseEnter);
             // 
             // Form1
             // 
