@@ -231,7 +231,7 @@
             // label21
             // 
             this.label21.BackColor = System.Drawing.Color.SaddleBrown;
-            this.label21.Location = new System.Drawing.Point(405, 133);
+            this.label21.Location = new System.Drawing.Point(449, 133);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(25, 50);
             this.label21.TabIndex = 20;
@@ -368,7 +368,7 @@
             this.label6.BackColor = System.Drawing.Color.SaddleBrown;
             this.label6.Location = new System.Drawing.Point(346, 183);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(117, 25);
+            this.label6.Size = new System.Drawing.Size(85, 25);
             this.label6.TabIndex = 5;
             this.label6.MouseEnter += new System.EventHandler(this.TenthColorWall_MouseEnter);
             // 
