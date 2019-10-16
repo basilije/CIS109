@@ -27,25 +27,34 @@ namespace MazeGame
         System.Media.SoundPlayer ninthColorSoundPlayer = new System.Media.SoundPlayer(@"C:\Windows\Media\Ring09.wav");
         System.Media.SoundPlayer tenthColorSoundPlayer = new System.Media.SoundPlayer(@"C:\Windows\Media\Ring10.wav");
 
-        //initialize counter
+        //initialize the counter
         int finishCounter = 0;
-        //int countDownTimer = 30;
+
+        //initialize the countdown timer
+        int countDownTimer = 30;
 
         public Form1()
         {
             InitializeComponent();
-            SetFormText(0);
+            SetFormTitle();
+            StartTheGame();
+        }
+
+        /// <summary>
+        /// Function that executed when the game is started
+        /// </summary>
+        private void StartTheGame()
+        {
             startSoundPlayer.Play();
             MovetoStart();
         }
 
         /// <summary>
-        /// Function that set the Form Title
+        /// Function that set the Form Title with counter and timer
         /// </summary>
-        /// <param name="counter"></param>
-        private void SetFormText(int counter)
+        private void SetFormTitle()
         {
-            this.Text = "Maze Game, Finish Counter: " + counter;// + "; Timer:" + countDownTimer;
+            this.Text = "Maze Game, Finish Counter: " + finishCounter + "   Timer: " + countDownTimer;
         }
 
         /// <summary>
@@ -53,7 +62,8 @@ namespace MazeGame
         /// </summary>
         private void LabelFinish_MouseEnter(object sender, EventArgs e)
         {
-            SetFormText(++finishCounter);
+            finishCounter++;
+            SetFormTitle();
             finishSoundPlayer.Play();
             MessageBox.Show("Congratulations!");            
             //Close();
@@ -64,6 +74,8 @@ namespace MazeGame
         /// </summary>
         private void MovetoStart()
         {
+            countDownTimer = 30;
+            SetFormTitle();
             Point startingPoint = panel1.Location;
             startingPoint.Offset(10, 10);
             Cursor.Position = PointToScreen(startingPoint);
@@ -159,5 +171,21 @@ namespace MazeGame
             MovetoStart();
         }
 
+        /// <summary>
+        /// Function that executes every n ticks. Will decrease the counter.
+        /// </summary>
+        private void DecreaseCountdownTimer(object sender, EventArgs e)
+        {
+            countDownTimer--;
+
+            // Stop the game and reset the counter;
+            if (countDownTimer<1)
+            {
+                countDownTimer = 30;
+                StartTheGame();
+            }
+
+            SetFormTitle();
+        }
     }
 }
