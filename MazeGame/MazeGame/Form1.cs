@@ -22,12 +22,20 @@ namespace MazeGame
         public Form1()
         {
             InitializeComponent();
+            MovetoStart();
         }
 
         private void LabelFinish_MouseEnter(object sender, EventArgs e)
         {
             MessageBox.Show("Congratulations!");
             Close();
+        }
+
+        private void MovetoStart()
+        {
+            Point startingPoint = panel1.Location;
+            startingPoint.Offset(10, 10);
+            Cursor.Position = PointToScreen(startingPoint);
         }
     }
 }
