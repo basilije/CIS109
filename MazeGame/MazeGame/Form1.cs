@@ -23,5 +23,11 @@ namespace MazeGame
         {
             InitializeComponent();
         }
+
+        private void LabelFinish_MouseEnter(object sender, EventArgs e)
+        {
+            MessageBox.Show("Congratulations!");
+            Close();
+        }
     }
 }
