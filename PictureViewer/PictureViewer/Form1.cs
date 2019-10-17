@@ -16,5 +16,25 @@ namespace PictureViewer
         {
             InitializeComponent();
         }
+
+        private void CloseButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BackgroundButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ClearButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ShowButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

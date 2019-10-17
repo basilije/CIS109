@@ -102,6 +102,7 @@
             this.closeButton.TabIndex = 0;
             this.closeButton.Text = "Close Button";
             this.closeButton.UseVisualStyleBackColor = true;
+            this.closeButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
             // backgroundButton
             // 
@@ -112,6 +113,7 @@
             this.backgroundButton.TabIndex = 1;
             this.backgroundButton.Text = "Set Background Color";
             this.backgroundButton.UseVisualStyleBackColor = true;
+            this.backgroundButton.Click += new System.EventHandler(this.BackgroundButton_Click);
             // 
             // clearButton
             // 
@@ -122,6 +124,7 @@
             this.clearButton.TabIndex = 2;
             this.clearButton.Text = "Clear Picture";
             this.clearButton.UseVisualStyleBackColor = true;
+            this.clearButton.Click += new System.EventHandler(this.ClearButton_Click);
             // 
             // showButton
             // 
@@ -132,6 +135,7 @@
             this.showButton.TabIndex = 3;
             this.showButton.Text = "Show Picture";
             this.showButton.UseVisualStyleBackColor = true;
+            this.showButton.Click += new System.EventHandler(this.ShowButton_Click);
             // 
             // openFileDialog1
             // 
