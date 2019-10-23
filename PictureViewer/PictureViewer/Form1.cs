@@ -17,12 +17,18 @@ namespace PictureViewer
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Function that will be started when the "Close" button is clicked.
+        /// </summary>
         private void CloseButton_Click(object sender, EventArgs e)
         {
             // Close the Form.
             this.Close();
         }
 
+        /// <summary>
+        /// Function that will be started when the "Background" button is clicked.
+        /// </summary>
         private void BackgroundButton_Click(object sender, EventArgs e)
         {
             // Show the color dialog box. If the user clicks OK, change the
@@ -31,12 +37,18 @@ namespace PictureViewer
                 pictureBox1.BackColor = colorDialog1.Color;
         }
 
+        /// <summary>
+        /// Function that will be started when the "Clear" button is clicked.
+        /// </summary>
         private void ClearButton_Click(object sender, EventArgs e)
         {
             // Clear the picture.
             pictureBox1.Image = null;
         }
 
+        /// <summary>
+        /// Function that will be started when the "Show" button is clicked.
+        /// </summary>
         private void ShowButton_Click(object sender, EventArgs e)
         {
             // Show the Open File dialog. If the user click OK, load the
@@ -45,6 +57,9 @@ namespace PictureViewer
                 pictureBox1.Load(openFileDialog1.FileName);
         }
 
+        /// <summary>
+        /// Function that will be started when the state of the only CheckBox is changed.
+        /// </summary>
         private void CheckBox1_CheckedChanged(object sender, EventArgs e)
         {
             // If the user selects the Stretch check box
