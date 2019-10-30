@@ -23,10 +23,7 @@ namespace MyPaint
 
         private void PictureBox1_MouseClick(object sender, MouseEventArgs e)
         {
-            if (drawing)
-                drawing = false;
-            else
-                drawing = true;
+            drawing = !drawing;
         }
 
         private void PictureBox1_MouseMove(object sender, MouseEventArgs e)
