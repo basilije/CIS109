@@ -17,8 +17,12 @@ namespace CurrencyConverter
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Function that starts when user click on the "Currencty Converter" button.
+        /// </summary>
         private void BtnConverter_Click(object sender, EventArgs e)
         {
+            // open the website with working currency converter
             webBrowser1.Navigate("https://www.foreignexchangeresource.com/currency-converter.php");
         }
     }
