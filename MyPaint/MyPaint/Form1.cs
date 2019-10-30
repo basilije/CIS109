@@ -71,11 +71,13 @@ namespace MyPaint
             p.Color = Color.Black;
         }
 
-        private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
+        private void SaveAsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SaveFileDialog saveFileDialog1 = new SaveFileDialog();
-            saveFileDialog1.Filter = "JPeg Image|*.jpg|Bitmap Image *.bmp|";
-            saveFileDialog1.Title = "Save an Image File";
+            SaveFileDialog saveFileDialog1 = new SaveFileDialog
+            {
+                Filter = "JPeg Image|*.jpg|Bitmap Image *.bmp|",
+                Title = "Save an Image File"
+            };
             saveFileDialog1.ShowDialog();
 
             if (saveFileDialog1.FileName != "")
