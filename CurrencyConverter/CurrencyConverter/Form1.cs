@@ -16,5 +16,10 @@ namespace CurrencyConverter
         {
             InitializeComponent();
         }
+
+        private void BtnConverter_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("https://www.foreignexchangeresource.com/currency-converter.php");
+        }
     }
 }
