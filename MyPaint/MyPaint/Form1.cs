@@ -28,5 +28,6 @@ namespace MyPaint
             else
                 drawing = true;
         }
+
     }
 }
