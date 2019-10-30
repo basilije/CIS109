@@ -29,5 +29,49 @@ namespace MyPaint
                 drawing = true;
         }
 
+        private void PictureBox1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (drawing)
+            {
+                Graphics g = Graphics.FromImage(bmp);
+                g.DrawEllipse(p, e.X, e.Y, 3, 1);
+                pictureBox1.Image = bmp;
+            }
+        }
+
+        private void RedButton_Click(object sender, EventArgs e)
+        {
+            p.Color = Color.Red;
+        }
+
+        private void BlueButton_Click(object sender, EventArgs e)
+        {
+            p.Color = Color.Blue;
+        }
+
+        private void GreenButton_Click(object sender, EventArgs e)
+        {
+            p.Color = Color.Green;
+        }
+
+        private void PurpleButton_Click(object sender, EventArgs e)
+        {
+            p.Color = Color.Purple;
+        }
+
+        private void LimeButton_Click(object sender, EventArgs e)
+        {
+            p.Color = Color.Lime;
+        }
+
+        private void WhiteButton_Click(object sender, EventArgs e)
+        {
+            p.Color = Color.White;
+        }
+
+        private void BlackButton_Click(object sender, EventArgs e)
+        {
+            p.Color = Color.Black;
+        }
     }
 }

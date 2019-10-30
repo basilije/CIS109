@@ -37,12 +37,14 @@
             this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveImageAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
+            this.RedButton = new System.Windows.Forms.ToolStripButton();
+            this.BlueButton = new System.Windows.Forms.ToolStripButton();
+            this.GreenButton = new System.Windows.Forms.ToolStripButton();
+            this.PurpleButton = new System.Windows.Forms.ToolStripButton();
+            this.LimeButton = new System.Windows.Forms.ToolStripButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.WhiteButton = new System.Windows.Forms.ToolStripButton();
+            this.BlackButton = new System.Windows.Forms.ToolStripButton();
             this.menuStrip2.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -99,66 +101,73 @@
             // 
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton1,
-            this.toolStripButton2,
-            this.toolStripButton3,
-            this.toolStripButton4,
-            this.toolStripButton5});
+            this.RedButton,
+            this.BlueButton,
+            this.GreenButton,
+            this.PurpleButton,
+            this.LimeButton,
+            this.WhiteButton,
+            this.BlackButton});
             this.toolStrip1.Location = new System.Drawing.Point(0, 64);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(800, 39);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // toolStripButton1
+            // RedButton
             // 
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton1.ForeColor = System.Drawing.Color.Red;
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(54, 36);
-            this.toolStripButton1.Text = "red";
+            this.RedButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.RedButton.ForeColor = System.Drawing.Color.Red;
+            this.RedButton.Image = ((System.Drawing.Image)(resources.GetObject("RedButton.Image")));
+            this.RedButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.RedButton.Name = "RedButton";
+            this.RedButton.Size = new System.Drawing.Size(54, 36);
+            this.RedButton.Text = "red";
+            this.RedButton.Click += new System.EventHandler(this.RedButton_Click);
             // 
-            // toolStripButton2
+            // BlueButton
             // 
-            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton2.ForeColor = System.Drawing.Color.Blue;
-            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
-            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(66, 36);
-            this.toolStripButton2.Text = "blue";
+            this.BlueButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.BlueButton.ForeColor = System.Drawing.Color.Blue;
+            this.BlueButton.Image = ((System.Drawing.Image)(resources.GetObject("BlueButton.Image")));
+            this.BlueButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.BlueButton.Name = "BlueButton";
+            this.BlueButton.Size = new System.Drawing.Size(66, 36);
+            this.BlueButton.Text = "blue";
+            this.BlueButton.Click += new System.EventHandler(this.BlueButton_Click);
             // 
-            // toolStripButton3
+            // GreenButton
             // 
-            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton3.ForeColor = System.Drawing.Color.Green;
-            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(81, 36);
-            this.toolStripButton3.Text = "green";
+            this.GreenButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.GreenButton.ForeColor = System.Drawing.Color.Green;
+            this.GreenButton.Image = ((System.Drawing.Image)(resources.GetObject("GreenButton.Image")));
+            this.GreenButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.GreenButton.Name = "GreenButton";
+            this.GreenButton.Size = new System.Drawing.Size(81, 36);
+            this.GreenButton.Text = "green";
+            this.GreenButton.Click += new System.EventHandler(this.GreenButton_Click);
             // 
-            // toolStripButton4
+            // PurpleButton
             // 
-            this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton4.ForeColor = System.Drawing.Color.Purple;
-            this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
-            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(88, 36);
-            this.toolStripButton4.Text = "purple";
+            this.PurpleButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.PurpleButton.ForeColor = System.Drawing.Color.Purple;
+            this.PurpleButton.Image = ((System.Drawing.Image)(resources.GetObject("PurpleButton.Image")));
+            this.PurpleButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.PurpleButton.Name = "PurpleButton";
+            this.PurpleButton.Size = new System.Drawing.Size(88, 36);
+            this.PurpleButton.Text = "purple";
+            this.PurpleButton.Click += new System.EventHandler(this.PurpleButton_Click);
             // 
-            // toolStripButton5
+            // LimeButton
             // 
-            this.toolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton5.ForeColor = System.Drawing.Color.Lime;
-            this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
-            this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton5.Name = "toolStripButton5";
-            this.toolStripButton5.Size = new System.Drawing.Size(65, 36);
-            this.toolStripButton5.Text = "lime";
+            this.LimeButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.LimeButton.ForeColor = System.Drawing.Color.Lime;
+            this.LimeButton.Image = ((System.Drawing.Image)(resources.GetObject("LimeButton.Image")));
+            this.LimeButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.LimeButton.Name = "LimeButton";
+            this.LimeButton.Size = new System.Drawing.Size(65, 36);
+            this.LimeButton.Text = "lime";
+            this.LimeButton.Click += new System.EventHandler(this.LimeButton_Click);
             // 
             // pictureBox1
             // 
@@ -170,7 +179,30 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PictureBox1_MouseClick);
+            this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.PictureBox1_MouseMove);
             this.pictureBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.PictureBox1_MouseClick);
+            // 
+            // WhiteButton
+            // 
+            this.WhiteButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.WhiteButton.ForeColor = System.Drawing.Color.White;
+            this.WhiteButton.Image = ((System.Drawing.Image)(resources.GetObject("WhiteButton.Image")));
+            this.WhiteButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.WhiteButton.Name = "WhiteButton";
+            this.WhiteButton.Size = new System.Drawing.Size(77, 36);
+            this.WhiteButton.Text = "white";
+            this.WhiteButton.Click += new System.EventHandler(this.WhiteButton_Click);
+            // 
+            // BlackButton
+            // 
+            this.BlackButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.BlackButton.ForeColor = System.Drawing.Color.Black;
+            this.BlackButton.Image = ((System.Drawing.Image)(resources.GetObject("BlackButton.Image")));
+            this.BlackButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.BlackButton.Name = "BlackButton";
+            this.BlackButton.Size = new System.Drawing.Size(74, 36);
+            this.BlackButton.Text = "black";
+            this.BlackButton.Click += new System.EventHandler(this.BlackButton_Click);
             // 
             // Form1
             // 
@@ -203,12 +235,14 @@
         private System.Windows.Forms.ToolStripMenuItem saveAsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem saveImageAsToolStripMenuItem;
         private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton toolStripButton1;
-        private System.Windows.Forms.ToolStripButton toolStripButton2;
-        private System.Windows.Forms.ToolStripButton toolStripButton3;
-        private System.Windows.Forms.ToolStripButton toolStripButton4;
-        private System.Windows.Forms.ToolStripButton toolStripButton5;
+        private System.Windows.Forms.ToolStripButton RedButton;
+        private System.Windows.Forms.ToolStripButton BlueButton;
+        private System.Windows.Forms.ToolStripButton GreenButton;
+        private System.Windows.Forms.ToolStripButton PurpleButton;
+        private System.Windows.Forms.ToolStripButton LimeButton;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolStripButton WhiteButton;
+        private System.Windows.Forms.ToolStripButton BlackButton;
     }
 }
 
