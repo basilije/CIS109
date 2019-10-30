@@ -54,9 +54,10 @@
             // menuStrip1
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
-            this.menuStrip1.Location = new System.Drawing.Point(0, 40);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 26);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(533, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -73,7 +74,8 @@
             this.fileToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(800, 40);
+            this.menuStrip2.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
+            this.menuStrip2.Size = new System.Drawing.Size(533, 26);
             this.menuStrip2.TabIndex = 2;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -83,20 +85,20 @@
             this.saveAsToolStripMenuItem,
             this.saveImageAsToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(64, 38);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(44, 24);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(324, 38);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
             this.saveAsToolStripMenuItem.Text = "Save As";
             this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.SaveAsToolStripMenuItem_Click);
             // 
             // saveImageAsToolStripMenuItem
             // 
             this.saveImageAsToolStripMenuItem.Name = "saveImageAsToolStripMenuItem";
-            this.saveImageAsToolStripMenuItem.Size = new System.Drawing.Size(324, 38);
+            this.saveImageAsToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
             this.saveImageAsToolStripMenuItem.Text = "Save Image As";
             // 
             // toolStrip1
@@ -110,9 +112,9 @@
             this.LimeButton,
             this.WhiteButton,
             this.BlackButton});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 64);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 50);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(800, 39);
+            this.toolStrip1.Size = new System.Drawing.Size(533, 27);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -123,7 +125,7 @@
             this.RedButton.Image = ((System.Drawing.Image)(resources.GetObject("RedButton.Image")));
             this.RedButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.RedButton.Name = "RedButton";
-            this.RedButton.Size = new System.Drawing.Size(54, 36);
+            this.RedButton.Size = new System.Drawing.Size(35, 24);
             this.RedButton.Text = "red";
             this.RedButton.Click += new System.EventHandler(this.RedButton_Click);
             // 
@@ -134,7 +136,7 @@
             this.BlueButton.Image = ((System.Drawing.Image)(resources.GetObject("BlueButton.Image")));
             this.BlueButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.BlueButton.Name = "BlueButton";
-            this.BlueButton.Size = new System.Drawing.Size(66, 36);
+            this.BlueButton.Size = new System.Drawing.Size(42, 24);
             this.BlueButton.Text = "blue";
             this.BlueButton.Click += new System.EventHandler(this.BlueButton_Click);
             // 
@@ -145,7 +147,7 @@
             this.GreenButton.Image = ((System.Drawing.Image)(resources.GetObject("GreenButton.Image")));
             this.GreenButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.GreenButton.Name = "GreenButton";
-            this.GreenButton.Size = new System.Drawing.Size(81, 36);
+            this.GreenButton.Size = new System.Drawing.Size(51, 24);
             this.GreenButton.Text = "green";
             this.GreenButton.Click += new System.EventHandler(this.GreenButton_Click);
             // 
@@ -156,7 +158,7 @@
             this.PurpleButton.Image = ((System.Drawing.Image)(resources.GetObject("PurpleButton.Image")));
             this.PurpleButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.PurpleButton.Name = "PurpleButton";
-            this.PurpleButton.Size = new System.Drawing.Size(88, 36);
+            this.PurpleButton.Size = new System.Drawing.Size(56, 24);
             this.PurpleButton.Text = "purple";
             this.PurpleButton.Click += new System.EventHandler(this.PurpleButton_Click);
             // 
@@ -167,7 +169,7 @@
             this.LimeButton.Image = ((System.Drawing.Image)(resources.GetObject("LimeButton.Image")));
             this.LimeButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.LimeButton.Name = "LimeButton";
-            this.LimeButton.Size = new System.Drawing.Size(65, 36);
+            this.LimeButton.Size = new System.Drawing.Size(42, 24);
             this.LimeButton.Text = "lime";
             this.LimeButton.Click += new System.EventHandler(this.LimeButton_Click);
             // 
@@ -178,7 +180,7 @@
             this.WhiteButton.Image = ((System.Drawing.Image)(resources.GetObject("WhiteButton.Image")));
             this.WhiteButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.WhiteButton.Name = "WhiteButton";
-            this.WhiteButton.Size = new System.Drawing.Size(77, 36);
+            this.WhiteButton.Size = new System.Drawing.Size(49, 24);
             this.WhiteButton.Text = "white";
             this.WhiteButton.Click += new System.EventHandler(this.WhiteButton_Click);
             // 
@@ -189,7 +191,7 @@
             this.BlackButton.Image = ((System.Drawing.Image)(resources.GetObject("BlackButton.Image")));
             this.BlackButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.BlackButton.Name = "BlackButton";
-            this.BlackButton.Size = new System.Drawing.Size(74, 36);
+            this.BlackButton.Size = new System.Drawing.Size(48, 24);
             this.BlackButton.Text = "black";
             this.BlackButton.Click += new System.EventHandler(this.BlackButton_Click);
             // 
@@ -197,9 +199,10 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Black;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 103);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 77);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(800, 347);
+            this.pictureBox1.Size = new System.Drawing.Size(533, 211);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PictureBox1_MouseClick);
@@ -208,14 +211,15 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(533, 288);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.menuStrip2);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "My Paint";
             this.menuStrip2.ResumeLayout(false);
