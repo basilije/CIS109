@@ -1,6 +1,6 @@
 ﻿namespace bluelime
 {
-    partial class frmMain
+    partial class FrmMain
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.btnBack = new System.Windows.Forms.ToolStripButton();
             this.btnForward = new System.Windows.Forms.ToolStripButton();
@@ -64,7 +64,7 @@
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(68, 37);
             this.btnBack.Text = "Back";
-            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            this.btnBack.Click += new System.EventHandler(this.BtnBack_Click);
             // 
             // btnForward
             // 
@@ -74,7 +74,7 @@
             this.btnForward.Name = "btnForward";
             this.btnForward.Size = new System.Drawing.Size(104, 37);
             this.btnForward.Text = "Forward";
-            this.btnForward.Click += new System.EventHandler(this.btnForward_Click);
+            this.btnForward.Click += new System.EventHandler(this.BtnForward_Click);
             // 
             // toolStripSeparator1
             // 
@@ -96,7 +96,7 @@
             this.btnGo.Name = "btnGo";
             this.btnGo.Size = new System.Drawing.Size(49, 37);
             this.btnGo.Text = "Go";
-            this.btnGo.Click += new System.EventHandler(this.btnGo_Click);
+            this.btnGo.Click += new System.EventHandler(this.BtnGo_Click);
             // 
             // webBrowser1
             // 
@@ -107,7 +107,7 @@
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(800, 410);
             this.webBrowser1.TabIndex = 1;
-            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
+            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.WebBrowser1_DocumentCompleted);
             // 
             // contextMenuStrip1
             // 
@@ -122,7 +122,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.toolStrip1);
-            this.Name = "frmMain";
+            this.Name = "FrmMain";
             this.Text = "bluelime";
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();

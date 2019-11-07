@@ -10,13 +10,16 @@ using System.Windows.Forms;
 
 namespace bluelime
 {
-    public partial class frmMain : Form
+    public partial class FrmMain : Form
     {
-        public frmMain()
+        public FrmMain()
         {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         private void CboLocation_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
@@ -25,22 +28,34 @@ namespace bluelime
             }
         }
 
-        private void btnBack_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Function that exexutes when the "Back" button is clicked.
+        /// </summary>
+        private void BtnBack_Click(object sender, EventArgs e)
         {
             webBrowser1.GoBack();
         }
 
-        private void btnForward_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Function that exexutes when the "Forward" button is clicked.
+        /// </summary>
+        private void BtnForward_Click(object sender, EventArgs e)
         {
             webBrowser1.GoForward();
         }
 
-        private void btnGo_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Function that exexutes when the "Go" button is clicked.
+        /// </summary>
+        private void BtnGo_Click(object sender, EventArgs e)
         {
             webBrowser1.Navigate(cboLocation.Text);
         }
 
-        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        /// <summary>
+        /// Function that started when the document hosted in the Web browser control is fully loaded.
+        /// </summary>
+        private void WebBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
             Text = "bluelime - " + webBrowser1.Document.Title;
         }
