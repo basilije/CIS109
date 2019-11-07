@@ -16,5 +16,28 @@ namespace bluelime
         {
             InitializeComponent();
         }
+
+        private void CboLocation_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                webBrowser1.Navigate(cboLocation.Text);
+            }
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            webBrowser1.GoBack();
+        }
+
+        private void btnForward_Click(object sender, EventArgs e)
+        {
+            webBrowser1.GoForward();
+        }
+
+        private void btnGo_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate(cboLocation.Text);
+        }
     }
 }
