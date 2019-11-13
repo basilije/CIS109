@@ -214,6 +214,7 @@
             this.btnEquals.TabIndex = 14;
             this.btnEquals.Text = "=";
             this.btnEquals.UseVisualStyleBackColor = false;
+            this.btnEquals.Click += new System.EventHandler(this.btnEquals_Click);
             // 
             // btnDot
             // 
