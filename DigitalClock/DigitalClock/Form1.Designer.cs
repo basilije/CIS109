@@ -31,13 +31,14 @@
             this.hourMinuteLabel = new System.Windows.Forms.Label();
             this.secondsLabel = new System.Windows.Forms.Label();
             this.dateLabel = new System.Windows.Forms.Label();
+            this.weekDayLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // hourMinuteLabel
             // 
             this.hourMinuteLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 49.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hourMinuteLabel.ForeColor = System.Drawing.Color.White;
-            this.hourMinuteLabel.Location = new System.Drawing.Point(71, 58);
+            this.hourMinuteLabel.Location = new System.Drawing.Point(34, 30);
             this.hourMinuteLabel.Name = "hourMinuteLabel";
             this.hourMinuteLabel.Size = new System.Drawing.Size(308, 98);
             this.hourMinuteLabel.TabIndex = 0;
@@ -47,7 +48,7 @@
             // 
             this.secondsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 49.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.secondsLabel.ForeColor = System.Drawing.Color.White;
-            this.secondsLabel.Location = new System.Drawing.Point(366, 58);
+            this.secondsLabel.Location = new System.Drawing.Point(329, 30);
             this.secondsLabel.Name = "secondsLabel";
             this.secondsLabel.Size = new System.Drawing.Size(163, 98);
             this.secondsLabel.TabIndex = 1;
@@ -57,18 +58,29 @@
             // 
             this.dateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 49.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateLabel.ForeColor = System.Drawing.Color.White;
-            this.dateLabel.Location = new System.Drawing.Point(71, 156);
+            this.dateLabel.Location = new System.Drawing.Point(34, 134);
             this.dateLabel.Name = "dateLabel";
             this.dateLabel.Size = new System.Drawing.Size(506, 98);
             this.dateLabel.TabIndex = 2;
             this.dateLabel.Text = "Jan 03 2017";
+            // 
+            // weekDayLabel
+            // 
+            this.weekDayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 49.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.weekDayLabel.ForeColor = System.Drawing.Color.White;
+            this.weekDayLabel.Location = new System.Drawing.Point(34, 236);
+            this.weekDayLabel.Name = "weekDayLabel";
+            this.weekDayLabel.Size = new System.Drawing.Size(506, 98);
+            this.weekDayLabel.TabIndex = 3;
+            this.weekDayLabel.Text = "Tuesday";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(673, 365);
+            this.ClientSize = new System.Drawing.Size(566, 367);
+            this.Controls.Add(this.weekDayLabel);
             this.Controls.Add(this.dateLabel);
             this.Controls.Add(this.secondsLabel);
             this.Controls.Add(this.hourMinuteLabel);
@@ -83,6 +95,7 @@
         private System.Windows.Forms.Label hourMinuteLabel;
         private System.Windows.Forms.Label secondsLabel;
         private System.Windows.Forms.Label dateLabel;
+        private System.Windows.Forms.Label weekDayLabel;
     }
 }
 
