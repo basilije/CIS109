@@ -1,6 +1,6 @@
 ﻿namespace SimpleDigitalClock
 {
-    partial class clock
+    partial class Clock
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(clock));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Clock));
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -54,7 +54,7 @@
             this.Name = "clock";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Simple Digital Clock";
-            this.Load += new System.EventHandler(this.clock_Load);
+            this.Load += new System.EventHandler(this.ClockLoad);
             this.ResumeLayout(false);
 
         }

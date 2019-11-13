@@ -16,7 +16,7 @@ namespace SimpleDigitalClock
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new clock());
+            Application.Run(new Clock());
         }
     }
 }
