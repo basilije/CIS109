@@ -1,4 +1,11 @@
-﻿using System;
+﻿/* Vasilije Mehandzic
+ * Reno Technology Academy
+ * CIS109: Coding in C# for Imbedded Systems
+ * Udemy, 17 Beginner C# Walktrough Projects Step By Step
+ * Project 6: Create your own Drawing Paint App
+ * */
+
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 

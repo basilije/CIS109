@@ -1,4 +1,11 @@
-﻿using System;
+﻿/* Vasilije Mehandzic
+ * Reno Technology Academy
+ * CIS109: Coding in C# for Imbedded Systems
+ * Udemy, 17 Beginner C# Walktrough Projects Step By Step
+ * Project 9: Create your own calculator
+ * */
+
+using System;
 using System.Windows.Forms;
 
 namespace Calculator

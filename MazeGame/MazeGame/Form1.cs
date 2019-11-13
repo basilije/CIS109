@@ -2,7 +2,7 @@
  * Reno Technology Academy
  * CIS109: Coding in C# for Imbedded Systems
  * Udemy, 17 Beginner C# Walktrough Projects Step By Step
- * Project 3: Create a Maze Game
+ * Project 4: Create a Maze Game
  * */
 
 using System;

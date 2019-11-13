@@ -1,4 +1,11 @@
-﻿using System;
+﻿/* Vasilije Mehandzic
+ * Reno Technology Academy
+ * CIS109: Coding in C# for Imbedded Systems
+ * Udemy, 17 Beginner C# Walktrough Projects Step By Step
+ * Project 7: Create a world Currency Converter
+ * */
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
