@@ -16,19 +16,14 @@ namespace Calculator
 
         private void ClickButton(object sender, EventArgs e)
         {
-            if (resultBox.Text == "0" || (is_operator_clicked))
+            if (resultBox.Text == "0" || is_operator_clicked)
                 resultBox.Clear();
 
             is_operator_clicked = false;
             Button button = (Button)sender;
 
-            if (button.Text == ".")
-            {
-                if (!resultBox.Text.Contains("."))
-                    resultBox.Text = resultBox.Text + button.Text;
-            }
-            else
-                resultBox.Text = resultBox.Text + button.Text;
+            if ( ((button.Text != ".")) || ((button.Text == ".") && (!resultBox.Text.Contains("."))) )
+                resultBox.Text += button.Text;
         }
 
         private void OperatorClick(object sender, EventArgs e)
@@ -38,16 +33,15 @@ namespace Calculator
             if (result_value != 0)
             {
                 btnEquals.PerformClick();
-                operator_clicked = button.Text;
-                is_operator_clicked = true;
+                operator_clicked = button.Text;                
             }
             else
             {
                 operator_clicked = button.Text;
                 result_value = Double.Parse(resultBox.Text);
-                is_operator_clicked = true;
             }
 
+            is_operator_clicked = true;
             operator_clicked = button.Text;
             result_value = Double.Parse(resultBox.Text);
 
