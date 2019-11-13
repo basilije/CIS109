@@ -34,24 +34,11 @@ namespace SimpleDigitalClock
 
             string time = "";
 
-            if (hh < 10)
-                time += "0" + hh;
-            else
-                time += hh;
-
+            time += hh < 10 ? "0" + hh.ToString() : hh.ToString();
             time += ":";
-
-            if (mm < 10)
-                time += "0" + mm;
-            else
-                time += mm;
-
+            time += mm < 10 ? "0" + mm.ToString() : mm.ToString();
             time += ":";
-
-            if (ss < 10)
-                time += "0" + ss;
-            else
-                time += ss;
+            time += ss < 10 ? "0" + ss.ToString() : ss.ToString();
 
             label1.Text = time;
         }
