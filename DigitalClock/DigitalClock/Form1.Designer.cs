@@ -43,7 +43,7 @@
             this.hourMinuteLabel.ForeColor = System.Drawing.Color.White;
             this.hourMinuteLabel.Location = new System.Drawing.Point(6, 19);
             this.hourMinuteLabel.Name = "hourMinuteLabel";
-            this.hourMinuteLabel.Size = new System.Drawing.Size(533, 179);
+            this.hourMinuteLabel.Size = new System.Drawing.Size(496, 179);
             this.hourMinuteLabel.TabIndex = 0;
             this.hourMinuteLabel.Text = "11:55";
             // 
