@@ -58,7 +58,7 @@
             this.btn7.TabIndex = 0;
             this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = false;
-            this.btn7.Click += new System.EventHandler(this.click_button);
+            this.btn7.Click += new System.EventHandler(this.ClickButton);
             // 
             // btn8
             // 
@@ -70,7 +70,7 @@
             this.btn8.TabIndex = 1;
             this.btn8.Text = "8";
             this.btn8.UseVisualStyleBackColor = false;
-            this.btn8.Click += new System.EventHandler(this.click_button);
+            this.btn8.Click += new System.EventHandler(this.ClickButton);
             // 
             // btn9
             // 
@@ -82,7 +82,7 @@
             this.btn9.TabIndex = 2;
             this.btn9.Text = "9";
             this.btn9.UseVisualStyleBackColor = false;
-            this.btn9.Click += new System.EventHandler(this.click_button);
+            this.btn9.Click += new System.EventHandler(this.ClickButton);
             // 
             // divideBtn
             // 
@@ -94,7 +94,7 @@
             this.divideBtn.TabIndex = 3;
             this.divideBtn.Text = "÷";
             this.divideBtn.UseVisualStyleBackColor = false;
-            this.divideBtn.Click += new System.EventHandler(this.operator_click);
+            this.divideBtn.Click += new System.EventHandler(this.OperatorClick);
             // 
             // btnMultiply
             // 
@@ -106,7 +106,7 @@
             this.btnMultiply.TabIndex = 7;
             this.btnMultiply.Text = "×";
             this.btnMultiply.UseVisualStyleBackColor = false;
-            this.btnMultiply.Click += new System.EventHandler(this.operator_click);
+            this.btnMultiply.Click += new System.EventHandler(this.OperatorClick);
             // 
             // btn6
             // 
@@ -118,7 +118,7 @@
             this.btn6.TabIndex = 6;
             this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = false;
-            this.btn6.Click += new System.EventHandler(this.click_button);
+            this.btn6.Click += new System.EventHandler(this.ClickButton);
             // 
             // btn5
             // 
@@ -130,7 +130,7 @@
             this.btn5.TabIndex = 5;
             this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = false;
-            this.btn5.Click += new System.EventHandler(this.click_button);
+            this.btn5.Click += new System.EventHandler(this.ClickButton);
             // 
             // btn4
             // 
@@ -142,7 +142,7 @@
             this.btn4.TabIndex = 4;
             this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = false;
-            this.btn4.Click += new System.EventHandler(this.click_button);
+            this.btn4.Click += new System.EventHandler(this.ClickButton);
             // 
             // btnMinus
             // 
@@ -154,7 +154,7 @@
             this.btnMinus.TabIndex = 11;
             this.btnMinus.Text = "−";
             this.btnMinus.UseVisualStyleBackColor = false;
-            this.btnMinus.Click += new System.EventHandler(this.operator_click);
+            this.btnMinus.Click += new System.EventHandler(this.OperatorClick);
             // 
             // btn3
             // 
@@ -166,7 +166,7 @@
             this.btn3.TabIndex = 10;
             this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = false;
-            this.btn3.Click += new System.EventHandler(this.click_button);
+            this.btn3.Click += new System.EventHandler(this.ClickButton);
             // 
             // btn2
             // 
@@ -178,7 +178,7 @@
             this.btn2.TabIndex = 9;
             this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = false;
-            this.btn2.Click += new System.EventHandler(this.click_button);
+            this.btn2.Click += new System.EventHandler(this.ClickButton);
             // 
             // btn1
             // 
@@ -190,7 +190,7 @@
             this.btn1.TabIndex = 8;
             this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = false;
-            this.btn1.Click += new System.EventHandler(this.click_button);
+            this.btn1.Click += new System.EventHandler(this.ClickButton);
             // 
             // btnPlus
             // 
@@ -202,7 +202,7 @@
             this.btnPlus.TabIndex = 15;
             this.btnPlus.Text = "+";
             this.btnPlus.UseVisualStyleBackColor = false;
-            this.btnPlus.Click += new System.EventHandler(this.operator_click);
+            this.btnPlus.Click += new System.EventHandler(this.OperatorClick);
             // 
             // btnEquals
             // 
@@ -214,7 +214,7 @@
             this.btnEquals.TabIndex = 14;
             this.btnEquals.Text = "=";
             this.btnEquals.UseVisualStyleBackColor = false;
-            this.btnEquals.Click += new System.EventHandler(this.btnEquals_Click);
+            this.btnEquals.Click += new System.EventHandler(this.BtnEqualsClick);
             // 
             // btnDot
             // 
@@ -226,7 +226,7 @@
             this.btnDot.TabIndex = 13;
             this.btnDot.Text = ".";
             this.btnDot.UseVisualStyleBackColor = false;
-            this.btnDot.Click += new System.EventHandler(this.click_button);
+            this.btnDot.Click += new System.EventHandler(this.ClickButton);
             // 
             // btn0
             // 
@@ -238,7 +238,7 @@
             this.btn0.TabIndex = 12;
             this.btn0.Text = "0";
             this.btn0.UseVisualStyleBackColor = false;
-            this.btn0.Click += new System.EventHandler(this.click_button);
+            this.btn0.Click += new System.EventHandler(this.ClickButton);
             // 
             // resultBox
             // 
@@ -261,7 +261,7 @@
             this.clearBtn.TabIndex = 17;
             this.clearBtn.Text = "Clear";
             this.clearBtn.UseVisualStyleBackColor = false;
-            this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);
+            this.clearBtn.Click += new System.EventHandler(this.ClearBtnClick);
             // 
             // Form1
             // 
